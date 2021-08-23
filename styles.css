@@ -1,0 +1,142 @@
+.container-fluid {
+  padding: 0;
+}
+.main{
+  padding: 3% 15%;
+}
+.quote{
+  text-align: right;
+}
+h3{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+
+.box-1 {
+  padding: 1% 3%;
+  background: #00C9FF;
+  background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
+  background: linear-gradient(to right, #92FE9D, #00C9FF);
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 1.5rem;
+}
+
+.logo-name {
+  font-family: 'Tenor Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.title {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: 'Kalam', cursive;
+  font-size: 1.2rem;
+  margin-right: 1.5rem;
+}
+
+
+.box {
+  background-color: grey;
+  margin-top: 2%;
+}
+
+
+/* card section */
+.img{
+  width:100%;
+  height:auto;
+}
+
+.m-card {
+  margin: 5rem 1rem 5rem 1rem;
+}
+
+.me-card{
+  margin:2% 3%;
+}
+
+.card-title{
+  color: red;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: red;
+  transition: 0.8s;
+}
+
+.blogs{
+  padding: 2% 5%;
+}
+
+.blogs-2 {
+  padding: 3% 5% 7% 5%;
+  background: #00C9FF;
+  background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
+  background: linear-gradient(to right, #92FE9D, #00C9FF);
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+/* blog-1 section */
+.head {
+  text-align: center;
+  font-family: 'Merienda', cursive;
+  border-top: 2px dotted;
+
+}
+
+.blog1-img {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 3% 5%;
+  margin-top: 4rem;
+}
+
+.copy {
+  margin-top: 3rem;
+  border-top: 3px solid red;
+  text-align: center;
+}
+
+/* Media Query section */
+
+
+@media (max-width:992px) {
+  .nav-link {
+    text-align: right;
+  }
+}
+
+@media (max-width:768px) {
+  .fot {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .hide {
+    display: none;
+  }
+  footer{
+    text-align: center;
+  }
+}
